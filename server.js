@@ -12,6 +12,8 @@ const errorHandler = require('./middleware/errorHandler');
 const AppError = require('./utils/appError');
 const { stripeWebhook } = require('./routes/paymentRoutes');
 
+
+console.log(Object.keys(process.env));
 // الاتصال بقاعدة البيانات
 connectDB();
 
