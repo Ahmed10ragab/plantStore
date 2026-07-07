@@ -16,7 +16,7 @@ const productSchema = new mongoose.Schema(
       type: String,
       required: [true, 'التصنيف مطلوب'],
       enum: {
-        values: ['plant-disease-treatment', 'plant-tools', 'seeds', 'fertilizers'],
+        values: ['plant-disease-treatment', 'plant-tools', 'seeds', 'fertilizers','devices'],
         message:
           'التصنيف يجب أن يكون واحد من: plant-disease-treatment, plant-tools, seeds, fertilizers',
       },
